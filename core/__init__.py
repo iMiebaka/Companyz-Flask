@@ -1,6 +1,6 @@
 import pymongo
 from flask import Flask, jsonify, request, Blueprint
-from config import config
+# from config import config
 
 
 
