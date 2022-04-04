@@ -30,7 +30,7 @@
 ## 🧐 About <a name = "about"></a>
 
 I finally had to swallow my pride and give the Big Data storage Genie 🧞 a try, and I'll say it was worth every keystroke. <br/>
-I built this project to recieve names of Companies and years of existence (Using Python and MongoDB)
+I built this project to receive names of Companies and years of existence (Using Python and MongoDB)
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for options to deploy the project on a live system.
@@ -42,17 +42,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-Open a command window and, run the following command
+Open a command terminal and, run the following command
 
 ```
 cd mongodb_flask
-```
-
-```
 pip3 install -r requirements.txt
-```
-
-```
 python3 run.py
 ```
 
