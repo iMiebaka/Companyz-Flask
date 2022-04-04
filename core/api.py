@@ -15,6 +15,9 @@ def home():
 @api.route('delete' , methods=['GET'])
 def delete():
     item = request.args.get('item', type=str)
+    if item == "":
+        return jsonify({"status": "error", "message": "No Data Found"}), 404
+
     if item is None:
         for t_db in db.test_collection.find():
             content = {'_id' : t_db['_id']}
@@ -31,6 +34,9 @@ def update_item():
     if item is None:
         return jsonify({"status": "error", "message": "No Data Found"}), 404
     else:
+        if item == "":
+            return jsonify({"status": "error", "message": "No Data Found"}), 404
+
         data_set = db.test_collection.find_one(item)
         name = request.json['name']
         age = request.json['age']
@@ -39,14 +45,12 @@ def update_item():
         if age:
             data_set['age'] = age
         content = {
-            '_id': uuid.uuid4().hex,
             'name': name,
             'age': age
         }
+        db.test_collection.update_one({"_id": data_set["_id"]}, {"$set": content})
         try:
-            db.test_collection.insert_one(content)
-            content["_id"] = str(content["_id"])
-            return jsonify({"status": "success", "data": content}), 201
+            return jsonify({"status": "success", "data": "Item Updated"}), 200
         except:
             return jsonify({"status": "error", "message": "Could not Summit Request"}), 400
 

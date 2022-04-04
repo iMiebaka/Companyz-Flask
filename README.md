@@ -51,7 +51,13 @@ python3 run.py
 ```
 
 ## 🎈 Usage <a name="usage"></a>
-Add notes about how to use the system.
+This is a simple crud app.
+### URL Endpoint
+- /api/v1/
+- /api/v1/add
+- /api/v1/delete?item=<id>
+- /api/v1/update?item=<id>
+
 
 
 ## 🚀 Deployment <a name = "deployment"></a>
