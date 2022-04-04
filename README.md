@@ -75,7 +75,7 @@ Add notes about how to use the system.
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@imiebaka](https://github.com/imiebaka) - Idea & Initial work
+- [@imiebaka](https://github.com/imiebaka) - Idea & Initial work (No need to thank me :sunglasses:)
 
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
