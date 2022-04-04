@@ -29,8 +29,8 @@
 
 ## 🧐 About <a name = "about"></a>
 
-I finally had to swallow my pride an give the Big Data storage geni a try, and I'll say it was worth every keystroke. <br/>
-So I built this project to recieve names of Companies and years of existence (Using Python and MongoDB)
+I finally had to swallow my pride and give the Big Data storage Genie 🧞 a try, and I'll say it was worth every keystroke. <br/>
+I built this project to recieve names of Companies and years of existence (Using Python and MongoDB)
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for options to deploy the project on a live system.
