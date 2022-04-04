@@ -8,9 +8,7 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://https://github.com/iMiebaka/Companyz-Flask/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://https://github.com/iMiebaka/Companyz-Flask/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
 
@@ -39,7 +37,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Python3 | >
+Python3  |  >
 MongoDB
 
 ### Installing
@@ -63,14 +61,16 @@ Add notes about how to use the system.
 
 
 ## 🚀 Deployment <a name = "deployment"></a>
-- Heroku
+- [Heroku](https://heroku.com) 
+- [Light Sail](https://lightsail.aws.amazon.com/ls/webapp/home/instances/) 
+- [PythonAnywhere](https://www.pythonanywhere.com/)
 
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
 - [MongoDB](https://www.mongodb.com/) - Database
 - [Flask](https://expressjs.com/) - Server Framework
-- [Python](https://nodejs.org/en/) - Server Environment
+- [Python](https://python.org/en/) - Server Environment
 
 
 ## ✍️ Authors <a name = "authors"></a>
@@ -82,3 +82,4 @@ Add notes about how to use the system.
 
 - [Tutorial Point](https://www.tutorialspoint.com/python_data_access/python_mongodb_delete_document.htm)
 - [Educba](https://www.educba.com/mongodb-pagination/)
+- [pymongo](https://pypi.org/project/pymongo/) - Documentation for mongo DB wrapper
