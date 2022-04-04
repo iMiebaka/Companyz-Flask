@@ -37,12 +37,12 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-- Python3  |  >
+- Python3  or greater
 - MongoDB
 
 ### Installing
 
-Open a command terminal and, run the following command
+After cloning the repository, run the following command
 
 ```
 cd mongodb_flask
