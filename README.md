@@ -55,6 +55,12 @@ This is a simple crud app.
 ### URL Endpoint
 - /api/v1/
 - /api/v1/add
+```
+{
+  "name": "xyz",
+  "age": 25
+}
+```
 - /api/v1/delete?item=<id>
 - /api/v1/update?item=<id>
 
