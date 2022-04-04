@@ -33,12 +33,12 @@ I finally had to swallow my pride an give the Big Data storage geni a try, and I
 So I built this project to recieve names of Companies and years of existence (Using Python and MongoDB)
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for options to deploy the project on a live system.
 
 ### Prerequisites
 
-Python3  |  >
-MongoDB
+- Python3  |  >
+- MongoDB
 
 ### Installing
 
